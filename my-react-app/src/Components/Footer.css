@@ -1,0 +1,63 @@
+/* General Footer Styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 5px solid #007bff;
+}
+
+/* Footer Heading */
+.footer h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Contact Links */
+.con-link h4,
+.con-link h3 {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.con-link a {
+  text-decoration: none;
+  color: #00c4ff;
+  font-weight: bold;
+}
+
+.con-link a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+/* Footer Bottom Section */
+.foo-ter h4 {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .footer h1 {
+    font-size: 1.8rem;
+  }
+
+  .con-link h4,
+  .con-link h3 {
+    font-size: 0.9rem;
+    padding: 5px;
+    color: aliceblue;
+  }
+
+  .foo-ter h4 {
+    font-size: 0.8rem;
+  }
+}

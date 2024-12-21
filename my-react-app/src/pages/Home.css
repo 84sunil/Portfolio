@@ -1,0 +1,102 @@
+.home-pages {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #e4d9ec;
+}
+
+.photo-img {
+  position: absolute;
+  right: 50px;
+  top: 130px;
+}
+
+.photo-img img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.photo-img img:hover {
+  transform: scale(1.01);
+  opacity: 1;
+}
+
+.text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 60rem;
+  margin: 15px 0;
+}
+
+.text .highlight {
+  color: #ff5722;
+  font-weight: bold;
+  animation: highlight-animation 2s infinite alternate;
+}
+
+@keyframes highlight-animation {
+  0% {
+    transform: scale(1);
+    color: #ff5722;
+  }
+  100% {
+    transform: scale(1.1);
+    color: #ff8a50;
+  }
+}
+
+.text h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #620000;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(15 , end) infinite alternate, blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-right: 2px solid transparent;
+  }
+  to {
+    border-right: 2px solid #ff5722;
+  }
+}
+
+.para-gp {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 20px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.para-gp p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+

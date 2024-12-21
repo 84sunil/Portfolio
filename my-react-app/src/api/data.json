@@ -1,0 +1,57 @@
+
+{
+  "services": [
+    {
+      "category": "Web Development",
+      "services": [
+        {
+          "name": "Frontend Development",
+          "image":"http://localhost:5173/image/front.jpeg",
+          "description": "Building responsive and user-friendly interfaces using HTML, CSS, and JavaScript.",
+          "technologies": ["HTML", "CSS", "JavaScript", "React", "Vue"]
+        },
+        {
+          "name": "Backend Development",
+          "image":"http://localhost:5173/image/back.jpeg",
+          "description": "Creating robust server-side applications and APIs.",
+          "technologies": ["Node.js", "Express", "Java"]
+        },
+        {
+          "name": "Full Stack Development",
+          "image":"http://localhost:5173/image/full.png",
+          "description": "End-to-end development of web applications, covering both frontend and backend.",
+          "technologies": ["MERN Stack", "MEAN Stack", "LAMP Stack"]
+        },
+        {
+          "name": "Basic python",
+          "image":"http://localhost:5173/image/py.jpeg",
+          "description": "End-to-end development of web applications, covering both all the topics",
+          "technologies": ["Basic concept", "list", "Django"]
+        }
+      ]
+    },
+    {
+      "category": "Digital Marketing",
+      "services": [
+        {
+          "name": "SEO Optimization",
+          "image":"http://localhost:5173/image/se.jpeg",
+          "description": "Improving website visibility and ranking on search engines.",
+          "tools": ["Google Analytics", "SEMRush", "Ahrefs"]
+        },
+        {
+          "name": "Social Media Marketing",
+          "image":"http://localhost:5173/image/so.webp",
+          "description": "Promoting brands and businesses on social media platforms.",
+          "platforms": ["Facebook", "Instagram", "Twitter", "LinkedIn"]
+        },
+        {
+          "name": "Content Marketing",
+          "image":"http://localhost:5173/image/content.jpeg",
+          "description": "Creating and sharing valuable content to attract and retain an audience.",
+          "formats": ["Blogs", "Videos", "Infographics"]
+        }
+      ]
+    }
+  ]
+}
